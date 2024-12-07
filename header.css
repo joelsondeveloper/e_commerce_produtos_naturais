@@ -1,0 +1,45 @@
+:root{
+    --color-background: #3a6351;
+    --color-text: #f3e9dc
+}
+
+html{
+    font-size: 62.5%;
+    min-height: 100vh;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-index{
+    display: flex;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+
+.header-index p{
+    font-size: 3.2rem;
+}
+    
+.header-index__ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.header-index__li{
+    padding: 1.5rem;
+    border-radius: .6rem;
+    transition: 0.5s;
+}
+
+.header-index__li:hover{
+    background-color: #4CAF50;
+    transition: 0.5s;
+}
