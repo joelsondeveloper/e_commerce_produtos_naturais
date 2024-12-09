@@ -1,0 +1,18 @@
+
+:root{
+    --color-background: #3a6351;
+    --color-text: #f3e9dc;
+    --color-a: #4CAF50
+}
+
+body{
+    margin: 0;
+}
+
+.section-inittial{
+    background-image: url(../img/background-loja.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 100vh;
+}

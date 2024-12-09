@@ -25,11 +25,12 @@ body{
 
 .header-index p{
     font-size: 3.2rem;
+    flex-grow: 1;
 }
     
 .header-index__ul{
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     list-style: none;
 }
 
@@ -37,9 +38,15 @@ body{
     padding: 1.5rem;
     border-radius: .6rem;
     transition: 0.5s;
+    
 }
 
 .header-index__li:hover{
     background-color: #4CAF50;
     transition: 0.5s;
+}
+
+.header-index__li a{
+    color: var(--color-text);
+    text-decoration: none;
 }
